@@ -1,0 +1,301 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+}
+
+.header {
+    background: blue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 95%;
+}
+
+.header ul li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+#add {
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    width: 120px;
+    color: navy;
+    font-weight: 700;
+}
+
+#logo {
+    width: 130px;
+    height: 22px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.untop {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+}
+
+.untop h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.untop img {
+    width: 20px;
+    height: 70px;
+    margin-left: 50%;
+    margin-top: 70px;
+}
+
+.bg {
+    height: 100vh;
+    width: 100%;
+}
+
+.display {
+    display: flex;
+}
+
+.display2 {
+    display: flex;
+}
+
+.image2 {
+    width: 50%;
+}
+
+.box {
+    width: 50%;
+}
+
+#css {
+    width: 50%;
+}
+
+.inner {
+    padding: 120px;
+    margin-top: 30px;
+}
+
+#css h1 {
+    color: hsl(212, 27%, 19%);
+    font-size: 50px;
+    font-family: 'Fraunces', serif;
+}
+
+#css p {
+    color: gray;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+#style2 {
+    color: hsl(212, 27%, 19%);
+    background: transparent;
+    font-family: 'Fraunces', serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid yellow;
+}
+
+.image1 {
+    width: 50%;
+}
+
+.container3 {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.image3,
+.image4 {
+    position: relative;
+    width: 50%;
+}
+
+.image3 img {
+    width: 100%;
+}
+
+.image4 img {
+    width: 100%;
+}
+
+#top {
+    position: absolute;
+    bottom: 40px;
+    width: 50%;
+    text-align: center;
+    left: 200px;
+}
+
+.box {
+    width: 50%;
+}
+
+.contianer4 {
+    padding: 120px;
+    margin: 30px;
+}
+
+.image2 {
+    width: 50%;
+}
+
+.box p {
+    color: gray;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+.box h1 {
+    color: hsl(212, 27%, 19%);
+    font-size: 50px;
+    font-family: 'Fraunces', serif;
+}
+
+#style3 {
+    color: hsl(212, 27%, 19%);
+    background: transparent;
+    font-family: 'Fraunces', serif;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 5px solid red;
+}
+
+.bigheader {
+    display: flex;
+}
+
+.firstdiv .seconddiv .thirddiv {
+    position: relative;
+}
+
+.bigheader {
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+    left: 200px;
+}
+
+.bigheader {
+    background-color: white;
+    width: 100%;
+    /* padding: 50px; */
+    /* margin: 5px; */
+}
+
+#imagesrc {
+    width: 50px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+#imagesrc img {
+    border-radius: 100%;
+}
+
+.main {
+    width: 25%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.seconddiv {
+    width: 25%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.thirddiv {
+    width: 25%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.footer {
+    display: flex;
+}
+
+.firstdiv {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: gray;
+    font-size: 10px;
+}
+
+.bottmside {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bottmside h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-family: 'Fraunces', serif;
+}
+
+.bottmside p {
+    color: gray;
+}
+
+.imgtag {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.bigdiv {
+    background-color: rgb(101, 160, 140);
+    text-align: center;
+}
+
+.bigdiv ul li {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.bigdiv ul li a {
+    color: rgb(100, 92, 92);
+}
+
+.bigdiv ul li a:hover {
+    color: white;
+}
+
+.bigdiv img {
+    margin: 10px;
+}
+
+.bigdiv h1 {
+    padding: 50px;
+}
